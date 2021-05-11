@@ -2,15 +2,15 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 
 
-# users = [
-#     {'name': 'Anna', 'birthday': datetime(year=1991, month=5, day=12)},
-#     {'name': 'Vova', 'birthday': datetime(year=1992, month=5, day=16)},
-#     {'name': 'Masha', 'birthday': datetime(year=1993, month=5, day=6)},
-#     {'name': 'Dasha', 'birthday': datetime(year=1994, month=5, day=20)},
-#     {'name': 'Sonya', 'birthday': datetime(year=1995, month=5, day=17)},
-#     {'name': 'Roma', 'birthday': datetime(year=1996, month=5, day=19)},
-#     {'name': 'Katya', 'birthday': datetime(year=1997, month=5, day=22)},
-# ]
+users = [
+    {'name': 'Anna', 'birthday': datetime(year=1991, month=5, day=12)},
+    {'name': 'Vova', 'birthday': datetime(year=1992, month=5, day=16)},
+    {'name': 'Masha', 'birthday': datetime(year=1993, month=5, day=6)},
+    {'name': 'Dasha', 'birthday': datetime(year=1994, month=5, day=20)},
+    {'name': 'Sonya', 'birthday': datetime(year=1995, month=5, day=17)},
+    {'name': 'Roma', 'birthday': datetime(year=1996, month=5, day=19)},
+    {'name': 'Katya', 'birthday': datetime(year=1997, month=5, day=22)},
+]
 
 
 def congratulate(birthday_list):
