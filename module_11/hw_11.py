@@ -148,6 +148,7 @@ if __name__ == '__main__':
     except ValueError as error:
         print(error)
 
+
     for i in book.iterator(1):
         print(f'\n name: {i[0].name.value}, phones: {[phone.value for phone in i[0].phones]}, birthday: {i[0].birthday.value if i[0].birthday else None}')
     # try:
